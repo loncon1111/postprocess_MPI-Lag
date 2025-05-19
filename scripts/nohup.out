@@ -1,0 +1,65 @@
+/work/apps/gnu_4.8.5/anaconda3/5.1.0/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:385: MatplotlibDeprecationWarning: 
+The 'inframe' parameter of draw() was deprecated in Matplotlib 3.3 and will be removed two minor releases later. Use Axes.redraw_in_frame() instead. If any parameter follows 'inframe', they should be passed as keyword, not positionally.
+  inframe=inframe)
+/work/apps/gnu_4.8.5/anaconda3/5.1.0/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:385: MatplotlibDeprecationWarning: 
+The 'inframe' parameter of draw() was deprecated in Matplotlib 3.3 and will be removed two minor releases later. Use Axes.redraw_in_frame() instead. If any parameter follows 'inframe', they should be passed as keyword, not positionally.
+  inframe=inframe)
+DatetimeIndex(['2017-07-15', '2017-07-14', '2017-07-13', '2017-07-12'], dtype='datetime64[ns]', freq='-1D')
+Index(['20170715', '20170714', '20170713', '20170712'], dtype='object')
+<xarray.DataArray 'Tb' (time: 192, lat: 824, lon: 825)>
+dask.array<getitem, shape=(192, 824, 825), dtype=float64, chunksize=(48, 824, 825), chunktype=numpy.ndarray>
+Coordinates:
+  * time     (time) datetime64[ns] 2017-07-12 ... 2017-07-15T23:30:00
+  * lon      (lon) float32 90.02 90.05 90.09 90.13 ... 119.9 119.9 120.0 120.0
+  * lat      (lat) float32 0.01819 0.05458 0.09097 0.1274 ... 29.89 29.93 29.96
+Attributes:
+    standard_name:  brightness_temperature
+    units:          K
+2017-07-15 00:00:00
+<bound method ImplementsArrayReduce._reduce_method.<locals>.wrapped_func of <xarray.DataArray 'Tb' (lat: 824, lon: 825)>
+dask.array<mean_agg-aggregate, shape=(824, 825), dtype=float64, chunksize=(824, 825), chunktype=numpy.ndarray>
+Coordinates:
+  * lon      (lon) float32 90.02 90.05 90.09 90.13 ... 119.9 119.9 120.0 120.0
+  * lat      (lat) float32 0.01819 0.05458 0.09097 0.1274 ... 29.89 29.93 29.96> <bound method ImplementsArrayReduce._reduce_method.<locals>.wrapped_func of <xarray.DataArray 'Tb' (lat: 824, lon: 825)>
+dask.array<mean_agg-aggregate, shape=(824, 825), dtype=float64, chunksize=(824, 825), chunktype=numpy.ndarray>
+Coordinates:
+  * lon      (lon) float32 90.02 90.05 90.09 90.13 ... 119.9 119.9 120.0 120.0
+  * lat      (lat) float32 0.01819 0.05458 0.09097 0.1274 ... 29.89 29.93 29.96>
+104.792366 113.0
+<xarray.DataArray 'Tb' (lat: 537, lon: 225)>
+dask.array<getitem, shape=(537, 225), dtype=float64, chunksize=(537, 225), chunktype=numpy.ndarray>
+Coordinates:
+  * lon      (lon) float32 104.8 104.9 104.9 104.9 ... 112.9 112.9 112.9 113.0
+  * lat      (lat) float32 4.712 4.748 4.785 4.821 ... 24.11 24.14 24.18 24.21
+2017-07-14 00:00:00
+<bound method ImplementsArrayReduce._reduce_method.<locals>.wrapped_func of <xarray.DataArray 'Tb' (lat: 824, lon: 825)>
+dask.array<mean_agg-aggregate, shape=(824, 825), dtype=float64, chunksize=(824, 825), chunktype=numpy.ndarray>
+Coordinates:
+  * lon      (lon) float32 90.02 90.05 90.09 90.13 ... 119.9 119.9 120.0 120.0
+  * lat      (lat) float32 0.01819 0.05458 0.09097 0.1274 ... 29.89 29.93 29.96> <bound method ImplementsArrayReduce._reduce_method.<locals>.wrapped_func of <xarray.DataArray 'Tb' (lat: 824, lon: 825)>
+dask.array<mean_agg-aggregate, shape=(824, 825), dtype=float64, chunksize=(824, 825), chunktype=numpy.ndarray>
+Coordinates:
+  * lon      (lon) float32 90.02 90.05 90.09 90.13 ... 119.9 119.9 120.0 120.0
+  * lat      (lat) float32 0.01819 0.05458 0.09097 0.1274 ... 29.89 29.93 29.96>
+96.383766 104.792366
+<xarray.DataArray 'Tb' (lat: 659, lon: 232)>
+dask.array<getitem, shape=(659, 232), dtype=float64, chunksize=(659, 232), chunktype=numpy.ndarray>
+Coordinates:
+  * lon      (lon) float32 96.38 96.42 96.46 96.49 ... 104.7 104.7 104.8 104.8
+  * lat      (lat) float32 0.7095 0.7459 0.7823 0.8187 ... 24.58 24.61 24.65
+2017-07-13 00:00:00
+<bound method ImplementsArrayReduce._reduce_method.<locals>.wrapped_func of <xarray.DataArray 'Tb' (lat: 824, lon: 825)>
+dask.array<mean_agg-aggregate, shape=(824, 825), dtype=float64, chunksize=(824, 825), chunktype=numpy.ndarray>
+Coordinates:
+  * lon      (lon) float32 90.02 90.05 90.09 90.13 ... 119.9 119.9 120.0 120.0
+  * lat      (lat) float32 0.01819 0.05458 0.09097 0.1274 ... 29.89 29.93 29.96> <bound method ImplementsArrayReduce._reduce_method.<locals>.wrapped_func of <xarray.DataArray 'Tb' (lat: 824, lon: 825)>
+dask.array<mean_agg-aggregate, shape=(824, 825), dtype=float64, chunksize=(824, 825), chunktype=numpy.ndarray>
+Coordinates:
+  * lon      (lon) float32 90.02 90.05 90.09 90.13 ... 119.9 119.9 120.0 120.0
+  * lat      (lat) float32 0.01819 0.05458 0.09097 0.1274 ... 29.89 29.93 29.96>
+93.04616 96.383766
+<xarray.DataArray 'Tb' (lat: 568, lon: 91)>
+dask.array<getitem, shape=(568, 91), dtype=float64, chunksize=(568, 91), chunktype=numpy.ndarray>
+Coordinates:
+  * lon      (lon) float32 93.07 93.11 93.15 93.18 ... 96.24 96.28 96.31 96.35
+  * lat      (lat) float32 0.01819 0.05458 0.09097 0.1274 ... 20.58 20.61 20.65

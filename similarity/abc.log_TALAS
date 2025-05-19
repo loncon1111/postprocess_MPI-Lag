@@ -1,0 +1,7 @@
+<xarray.Dataset>
+Dimensions:      (x: 2779, y: 2779)
+Coordinates:
+  * x            (x) int64 0 1 2 3 4 5 6 ... 2772 2773 2774 2775 2776 2777 2778
+  * y            (y) int64 0 1 2 3 4 5 6 ... 2772 2773 2774 2775 2776 2777 2778
+Data variables:
+    dist_matrix  (x, y) float64 ...

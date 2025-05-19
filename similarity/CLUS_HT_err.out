@@ -1,0 +1,11 @@
+WARNING: Error in initializing MVAPICH2 ptmalloc library.Continuing without InfiniBand registration cache support.
+srun: got SIGCONT
+slurmstepd: error: *** JOB 1390448 ON compute-1-8 CANCELLED AT 2025-03-31T15:53:07 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: forcing job termination
+slurmstepd: error: *** STEP 1390448.0 ON compute-1-8 CANCELLED AT 2025-03-31T15:53:07 ***
+srun: error: compute-1-9: tasks 20-39: Terminated
+srun: error: compute-1-10: tasks 40-59: Terminated
+srun: error: compute-1-11: tasks 60-79: Terminated
+srun: error: compute-1-8: tasks 0-9,13,15: Terminated
+srun: error: compute-1-8: tasks 10-12,14,16-19: Terminated
